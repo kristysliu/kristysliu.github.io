@@ -4,6 +4,7 @@
 
 .zumata_flex_container img{
     width: 400px;
+    height: 100%;
     margin: 10px auto;
 }
 
