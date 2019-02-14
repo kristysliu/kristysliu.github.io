@@ -1,0 +1,12 @@
+.zumata_flex_container{
+    display: flex;
+}
+
+.zumata_flex_container img{
+    width: 400px;
+    margin: 10px auto;
+}
+
+.zumata_diagram img{
+    width: 600px;
+}
