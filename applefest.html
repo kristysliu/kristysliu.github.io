@@ -2,95 +2,123 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Kristy's Portfolio: Apple Festival</title>
+  <title>Kristy's: Apple Festival Website</title>
   <link rel="stylesheet" type="text/css" href="styles/main.css">
   <link rel="stylesheet" type="text/css" href="styles/projectpages.css">
   <link rel="stylesheet" type="text/css" href="styles/applefest.css">
 </head>
 <body>
-  <div id = "logo">
-    <!-- <a href = "index.html">
-      <img src = "images/logo.png" alt="logo"/>
-    </a> -->
-  </div>
-  <div class = "navigation">
-    <div class = "navigation_flex1">
-      <h1>kristy liu</h1>
-    </div>
-    <div class = "navigation_flex2">
-    <h4>
-      <a href = "index.html">work</a>&nbsp;&nbsp;&nbsp;
-      <a href = "images/resume.pdf">resume</a>&nbsp;&nbsp;&nbsp;
-      <a href = "about.html">say hi</a>
-    </h4>
-    </div>
-  </div>
+  <div class = "container">
+    <header>
+      <div class = "navigation">
+          <div class = "navigation_flex1">
+              <h1>kristy liu</h1>
+          </div>
 
-  <div class = "projectpage">
-    <div class = "projectpage_banner">
-      <img src = "images/zumatabanner.png" alt = "applefest banner"/>
-    </div>
-    <div class = "projectpage_intro">
-    <h2>Apple Festival</h2>
-    <p>Web Development</p>
-    <p>Fall 2018</p>
-    </div>
+          <div class = "navigation_flex2">
+              <h4>
+                  <nav class = "navigation_flex2">
+                    <a href = "index.html"><span style="background-color: #edecec">work</span></a>
+                    <a href = "images/resume.pdf">resume</a>
+                    <a href = "about.html">say hi</a>
+                  </nav>
+              </h4>
+          </div>
+      </div>
+    </header>
 
-    <section>
-    <p>In my Intro to Web Programming class, our second project was to create a responsive website for a local event called Ithaca Apple Festival.
-      </p>
-    </section>
+    <div class = "projectpage">
+        <div class = "projectpage_intro">
+          <h2>Apple Festival</h2>
+          <p>Web Development</p>
+          <p>Fall 2018</p>
+        </div>
 
-    <section>
-    <h5>User Research</h5>
-    <div class = "sidehighlight">
-      <p>I visited the festival to experience its attractions and ask for opinions from visitors. The target audience of my website is freshman and transfer students from nearby universities such as Cornell and Ithaca College.</p>
-    </div>
-    </section>
+        <section>
+          <p>In my Intro to Web Programming class, our second project was to create a responsive website for a local event called Ithaca Apple Festival.</p>
+        </section>
 
-    <section>
-    <h5>Persona</h5>
-    <div class = "sidehighlight">
-      <p>Jon is a Cornell University junior transfer from Duke, studying Chemistry and Computer Science, who is eager to explore more of Ithaca. He's been at Cornell for two months and has been actively getting involved on campus and in the community. He joined a research lab, plays club basketball, and tutors kids in piano lessons. So far, he's gone to homecoming and hiked the gorges, but he has yet to go to Apple Fest for the first time. He's very excited because he loves fruits and most of all, apples. In fact, he has a huge appetite in general and eats a lot of McDonalds. Jon also loves running and prefers to walk around campus, so he's never taken the TCAT and also has never been to Ithaca Commons. Nevertheless, he's excited for all the food and to go with his girlfriend for the first time to Apple Fest and spend a nice afternoon together!</p>
-      <p><em>Pain Points:</em>
-      1. Wants to visit Apple Fest, but is not familiar with Ithaca, and doesn't know how to get to the commons.
-      2. Wants to take friends/girlfriend to Apple Fest but isn't sure if it's the right environment/atmosphere.
-      3. Wants to create a plan to have the full Apple Fest experience and wants more information about food, events, and other things you can do there.
-    </p>
-    </div>
-    </section>
+        <section>
+          <h5>User Research</h5>
+          <div class = "sidehighlight">
+            <p>I visited the festival to experience its attractions and ask for opinions from visitors. The target audience of my website is freshman and transfer students from nearby universities such as Cornell and Ithaca College.</p>
+          </div>
 
-    <section>
-    <h5>Sketches & Iterations</h5>
-    <div class = "sidehighlight">
-      <p>After identifying Jon's pain points, I created sketches for both the site's desktop and mobile displays.
-        Through several iterations and user testings, I created two sets of sketches, a draft website, and the final website.</p>
-    </div>
-    </section>
+          <h5>Persona</h5>
+          <div class = "sidehighlight">
+            <p>Jon is a Cornell University transfer from Duke, studying Computer Science, who is eager to explore more of Ithaca. He's been at Cornell for two months and has been actively getting involved on campus and in the community. He joined a research lab and tutors kids in piano lessons. So far, he's gone to homecoming and hiked the gorges, but he has yet to go to Apple Fest for the first time. Jon also loves running and prefers to walk around campus, so he's never taken the TCAT and also has never been to Ithaca Commons. Nevertheless, he's excited for all the food and to go with his girlfriend for the first time to Apple Fest and spend a nice afternoon together!</p>
+            <ol>Needs:
+              <li>Wants to visit Apple Fest, but is not familiar with Ithaca, and doesn't know how to get to the commons.</li>
+              <li>Wants to take friends/girlfriend to Apple Fest but isn't sure if it's the right environment/atmosphere.</li>
+              <li>Wants to create a plan to have the full Apple Fest experience and wants more information about food, events, and other things you can do there.</li>
+            </ol>
+          </div>
 
-    <section>
-    <h5>User Testing</h5>
-    <div class = "sidehighlight">
-      <p>User 1 is a 19-year-old Cornell female sophomore, majoring in Biological Sciences, who is a transfer student from SUNY Stony Brook. She enjoys dancing, watching cartoons, and urban fashion. She also really enjoys traveling and spent the past winter break solo traveling around Denmark. She's been at Cornell for a little over 6 months and is eager still to have more adventures in Ithaca with her friends. This year was the first year she attended Apple Fest.</p>
-      <p>User 2 is an 18-year-old freshman male, who is a student at Cornell University. He enjoys playing tennis and playing video games. He plans to major in Computer Science and is passionate about coding and math. He loves Cornell so far but feels like he wants to branch out more and explore more of Ithaca. He went to Apple Fest for the first time and Ithaca Farmer's Market with his freshman friends in September and really enjoyed the food!</p>
-      <p>User 3 is a Cornell sophomore male, who is a transfer from New York City. He is majoring in Economics and is involved in several business clubs on campus. He's passionate about traveling, has a major sweet tooth, and enjoys watching movies, having late-night conversations with friends, and playing badminton. After college, he wants to go into a corporate job, potentially in the financial technology industry. This semester, he wants to stay fit and spend more equality time with friends. He's explored some parts of Ithaca, but he hasn't attended Apple Fest before although he wants to before he graduates.</p>
-      <p>User 4 is a Cornell sophomore Spring transfer majoring in Hotel Administration, and she is from Hong Kong. She's adventurous and likes finding good eats. During her freshman year, she spent a lot of time in the commons and explored many parts of Ithaca, going to the gorges often. She also loves going to the Ithaca Farmer's Market. In fact, this semester, she's gone to the farmer's market almost every weekend with  friends because she thinks it's a great way to escape the fast-pace life of Cornell and eat good food. After college, she aspires to travel more and pursue a career in design.</p>
-    </div>
-    </section>
+          <h5>Sketches & Iterations</h5>
+          <div class = "sidehighlight">
+            <p>After identifying Jon's needs, I created sketches for both the site's desktop and mobile displays.
+              Through several iterations and user testings, I created two sets of sketches, a draft website, and the final website.</p>
+            <div class = "applefest_sketchImages">
+              <img src = "images/applefest/desktopsketch.png" alt = "applefest sketch image1"/><!-- Source: (original work) Kristy Liu.-->
+              <img src = "images/applefest/mobilesketch.png" alt = "applefest sketch image2"/><!-- Source: (original work) Kristy Liu.-->
+            </div>
+          </div>
 
-    <section>
-    <h5>Solution</h5>
-    <div class = "sidehighlight">
-      <p>Information here</p>
-    </div>
-    </section>
+          <h5>User Testing</h5>
+          <div class = "sidehighlight">
+            <p>User 1 is a 19-year-old Cornell female sophomore, majoring in Biological Sciences, who is a transfer student from SUNY Stony Brook. She enjoys dancing, watching cartoons, and urban fashion. She also really enjoys traveling and spent the past winter break solo traveling around Denmark. She's been at Cornell for a little over 6 months and is eager still to have more adventures in Ithaca with her friends. This year was the first year she attended Apple Fest.</p>
+            <p>User 2 is an 18-year-old freshman male, who is a student at Cornell University. He enjoys playing tennis and playing video games. He plans to major in Computer Science and is passionate about coding and math. He loves Cornell so far but feels like he wants to branch out more and explore more of Ithaca. He went to Apple Fest for the first time and Ithaca Farmer's Market with his freshman friends in September and really enjoyed the food!</p>
+            <p>User 3 is a Cornell sophomore male, who is a transfer from New York City. He is majoring in Economics and is involved in several business clubs on campus. He's passionate about traveling, has a major sweet tooth, and enjoys watching movies, having late-night conversations with friends, and playing badminton. After college, he wants to go into a corporate job, potentially in the financial technology industry. This semester, he wants to stay fit and spend more equality time with friends. He's explored some parts of Ithaca, but he hasn't attended Apple Fest before although he wants to before he graduates.</p>
+            <p>User 4 is a Cornell sophomore Spring transfer majoring in Hotel Administration, and she is from Hong Kong. She's adventurous and likes finding good eats. During her freshman year, she spent a lot of time in the commons and explored many parts of Ithaca, going to the gorges often. She also loves going to the Ithaca Farmer's Market. In fact, this semester, she's gone to the farmer's market almost every weekend with  friends because she thinks it's a great way to escape the fast-pace life of Cornell and eat good food. After college, she aspires to travel more and pursue a career in design.</p>
+            <p>Examples of user testing collection:</p>
+            <div class = "applefest_userImages">
+              <img src = "images/applefest/usertesting1.png" alt = "applefest usertesting image1"/><!-- Source: (original work) Kristy Liu.-->
+              <img src = "images/applefest/usertesting2.png" alt = "applefest usertesting image2"/><!-- Source: (original work) Kristy Liu.-->
+            </div>
+          </div>
 
-  </div>
+          <h5>Solution</h5>
+          <div class = "sidehighlight">
+            <p>The final website featured information about food, visitors, transportion directions, and an event schedule. I designed the website to be easy-to-navigate and people-centered in order to cater to freshman and sophomore transfers, who are seeking fun things to do at the festival with their friends. Images of the final website are shown below. </p>
+            <div class = "applefest_finalImages">
+              <figure>
+                <img src = "images/applefest/index1.jpg" alt = "applefest website image1"/><!-- Source: (original work) Kristy Liu.-->
+                <figcaption>Home Page</figcaption>
+              </figure>
+              <figure>
+                <img src = "images/applefest/food2.jpg" alt = "applefest website image2"/><!-- Source: (original work) Kristy Liu.-->
+                <figcaption>Page featuring food stands and visitors' reviews.</figcaption>
+              </figure>
+              <figure>
+                <img src = "images/applefest/events1.jpg" alt = "applefest website image3"/><!-- Source: (original work) Kristy Liu.-->
+                <figcaption>Page showing the performance schedule and nearby events.</figcaption>
+              </figure>
+              <figure>
+                <img src = "images/applefest/people2.jpg" alt = "applefest website image4"/><!-- Source: (original work) Kristy Liu.-->
+                <figcaption>Page featuring images of the different visitors at Apple Fest in the past and captions from social media.</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+      </div>
 
-  <div class = "projectpage_footer">
-    <p><a href = "index.php">Return</a></p>
-    <p><a href = "zumata.php">Next Project</a></p> <!--change this link-->
-  </div>
+      <div class = "projectpage_footer">
+        <p><a href = "index.html">Return to home</a></p>
+        <p><a href = "designfiction.html">Next Project</a></p>
+      </div>
+
+      <footer>
+          <div class = "footercontactme">
+              <p>Contact me at <a href="mailto:kl768@cornell.edu">kl768@cornell.edu</a>.</p>
+          </div>  
+          <div class = "footersocialmedia">
+              <p>view <span class = "footerbold"><a href="images/resume.pdf">resume.</a></span></p>
+              <p>connect on <span class = "footerbold"><a href = "https://www.linkedin.com/in/kristy-liu-4b9a73155/">linkedin.</a></span></p>
+              <p>follow on <span class = "footerbold"><a href = "https://www.instagram.com/krist.ykreme/">instagram.</a></span></p>
+              <p>friend on <span class = "footerbold"><a href = "https://www.facebook.com/kristina.liu.90">facebook.</a></span></p>
+          </div>
+      </footer>
+      </div>
 
 </body>
 </html>
